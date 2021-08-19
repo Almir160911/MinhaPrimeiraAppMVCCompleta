@@ -9,6 +9,9 @@ using DevIO.Business.Intefaces;
 using DevIO.Business.Models;
 using Microsoft.AspNetCore.Authorization;
 
+// teste2 github
+
+
 namespace DevIO.App.Controllers
 {
     [Authorize]
