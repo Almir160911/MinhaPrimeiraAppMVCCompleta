@@ -158,6 +158,10 @@ namespace DevIO.App.Controllers
             }
 
             return PartialView("_AtualizarEndereco", new FornecedorViewModel { Endereco = fornecedor.Endereco });
+
+            // teste git
+
+
         }
 
         [ClaimsAuthorize("Fornecedor", "Editar")]
