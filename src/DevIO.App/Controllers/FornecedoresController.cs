@@ -9,18 +9,6 @@ using DevIO.Business.Intefaces;
 using DevIO.Business.Models;
 using Microsoft.AspNetCore.Authorization;
 
-// teste2 github
-
-// teste3 github
-
-// teste4 github
-
-// test5 16:20 h
-
-// test6 16:39 h
-// test7 22:58 h
-
-
 namespace DevIO.App.Controllers
 {
     [Authorize]
