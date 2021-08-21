@@ -21,6 +21,7 @@ namespace DevIO.Business.Services
             {
                 Notificar(error.ErrorMessage);
             }
+
         }
 
         protected void Notificar(string mensagem)

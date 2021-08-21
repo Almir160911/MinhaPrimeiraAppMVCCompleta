@@ -1,4 +1,5 @@
 ﻿using System.Threading.Tasks;
+using AutoMapper.Configuration;
 using DevIO.Business.Intefaces;
 using Microsoft.AspNetCore.Mvc;
 
@@ -12,6 +13,7 @@ namespace DevIO.App.Extensions
         {
             _notificador = notificador;
         }
+
 
         public async Task<IViewComponentResult> InvokeAsync()
         {
