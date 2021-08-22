@@ -66,6 +66,7 @@ namespace DevIO.App.Controllers
         [ClaimsAuthorize("Produto", "Adicionar")]
         [Route("novo-produto")]
         [HttpPost]
+       // [ValidateAntiForgeryToken] 
         public async Task<IActionResult> Create(ProdutoViewModel produtoViewModel)
         {
             produtoViewModel = await PopularFornecedores(produtoViewModel);

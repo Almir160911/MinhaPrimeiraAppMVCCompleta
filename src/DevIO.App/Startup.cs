@@ -6,6 +6,7 @@ using Microsoft.EntityFrameworkCore;
 using DevIO.Data.Context;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
+//using Microsoft.AspNetCore.Http;
 
 namespace DevIO.App
 {
@@ -45,6 +46,8 @@ namespace DevIO.App
 
         public void Configure(IApplicationBuilder app, IHostingEnvironment env)
         {
+ 
+
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();
